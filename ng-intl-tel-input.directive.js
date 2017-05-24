@@ -56,6 +56,9 @@ angular.module('ngIntlTelInput')
                 value = '+' + value;
               }
               elm.intlTelInput('setNumber', value);
+              if (!attr.selectedCountry) {
+                value = elm.intlTelInput("getNumber", intlTelInputUtils.numberFormat.NATIONAL);
+              }
             }
             return value;
           });
