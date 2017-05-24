@@ -1,23 +1,20 @@
 {
   "name": "thumzap-ng-intl-tel-input",
-  "version": "2.0.0",
-  "homepage": "https://github.com/thumzap/ng-intl-tel-input",
-  "authors": [
-    "bighappyface <anomalous20@gmail.com>"
-  ],
   "description": "AngularJS directive implementing intl-tel-input (https://github.com/Bluefieldscom/intl-tel-input)",
   "main": "dist/ng-intl-tel-input.js",
   "moduleType": [
-    "globals"
+    "bighappyface <anomalous20@gmail.com>"
   ],
+  "license": "MIT",
   "keywords": [
+    "ng-intl-tel-input",
     "intl-tel-input",
     "international",
     "telephone",
     "validator",
     "angularjs"
   ],
-  "license": "MIT",
+  "homepage": "https://github.com/thumzap/ng-intl-tel-input",
   "ignore": [
     "**/.*",
     "node_modules",
