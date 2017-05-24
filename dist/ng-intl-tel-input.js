@@ -1,4 +1,5 @@
-angular.module('ngIntlTelInput', []);angular.module('ngIntlTelInput')
+angular.module('ngIntlTelInput', []);
+angular.module('ngIntlTelInput')
   .provider('ngIntlTelInput', function () {
     var me = this;
     var props = {};
@@ -24,6 +25,7 @@ angular.module('ngIntlTelInput', []);angular.module('ngIntlTelInput')
       });
     }];
   });
+
 angular.module('ngIntlTelInput')
   .directive('ngIntlTelInput', ['ngIntlTelInput', '$log', '$window', '$parse',
     function (ngIntlTelInput, $log, $window, $parse) {
